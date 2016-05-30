@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1744</color>
+    <color name="colorPrimaryDark">#c62828</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#FFF</color>
+    <color name="list_background_pressed">#E7E8E9</color>
+    <color name="list_divider">#272727</color>
+    <color name="cell_bg_normal">#2196F3</color>
+
+    <color name="bg_item_normal_state">#ffffffff</color>
+    <color name="bg_group_item_normal_state">#fffafafa</color>
+    <color name="bg_group_item_normal_pressed_state">#ffcfd8dc</color>
+    <color name="bg_group_item_expanded_state">#20000000</color>
+    <color name="bg_group_item_expanded_pressed_state">#ffcfd8dc</color>
+    <color name="expandable_item_indicator_color">#42000000</color>
+    <color name="bg_swipe_item_neutral">@android:color/transparent</color>
+    <color name="header_normal_bg">#FFEEEEEE</color>
+</resources>

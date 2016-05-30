@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="list_item_elevation">2dp</dimen>
+
+    <dimen name="list_item2_height">96dp</dimen>
+    <dimen name="auto_scroll_height">96dp</dimen>
+    <dimen name="list_grid_item_height">128dp</dimen>
+    <dimen name="list_group_item_height">?android:attr/actionBarSize</dimen>
+
+</resources>
