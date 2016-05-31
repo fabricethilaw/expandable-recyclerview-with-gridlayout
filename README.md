@@ -7,8 +7,7 @@ This is demo project for implementing an Expandable RecyclerView with grid items
 
 ### Download the example app
 
-<a href="https://play.google.com/store/apps/details?id=com.armani2015.android.example.expandablerecyclerview.withgridlayout
-">
+<a href="https://play.google.com/store/apps/details?id=com.armani2015.android.example.expandablerecyclerview.withgridlayout">
 <img alt="Get it on Google Play"
 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" width="204" height="60" />
 </a>
