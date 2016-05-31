@@ -57,7 +57,7 @@ Please check the implementation of simple example.
 License ("Expandable RecyclerView With Grid Layout")
 ---
 
-This porject is licensed under the [Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+This project is licensed under the [Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 See [`LICENSE`](LICENSE) for full of the license text.
 
