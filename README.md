@@ -17,7 +17,7 @@ src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
 ### Demonstration video on YouTube
 
 <a href="https://youtu.be/VFFcuJAz6dM" target="_blank">
-<img src="http://img.youtube.com/vi/S7cSwMArjUQ/0.jpg" alt="Expandable" width="480" height="360" border="10" />
+<img src="http://img.youtube.com/vi/VFFcuJAz6dM/0.jpg" alt="Expandable" width="480" height="360" border="10" />
 </a>
 
 ---
@@ -33,8 +33,8 @@ Latest version
 
 - Version 0.5.0  (May. 30, 2016)   ([RELEASE NOTES](./RELEASE-NOTES.md))
 
-* Support library v23.0.2 was used *
-* <a href="https://github.com/h6ah4i/android-advancedrecyclerview">Android Advanced RecyclerView library</a> was used *
+* Support library v23.0.2 was used
+* <a href="https://github.com/h6ah4i/android-advancedrecyclerview">Android Advanced RecyclerView library</a> was used
 
 
 Getting started
