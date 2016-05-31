@@ -50,8 +50,7 @@ Each GridRowHolder object receives a data array from RecyclerView adapter to dis
 
 Please check the implementation of simple example.
 
-- [Expandable Grid Item]         (com/armani2015/android/adapters/ExpandableGridItemAdapter
-.java)
+- [Expandable Grid Item]         (https://github.com/Armani2015/expandable-recyclerview-with-gridlayout/blob/master/app/src/main/java/com/armani2015/android/adapters/ExpandableGridItemAdapter.java)
 
 
 License ("Expandable RecyclerView With Grid Layout")
