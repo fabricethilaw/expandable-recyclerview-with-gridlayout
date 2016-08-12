@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mDataProvider = new ExampleExpandableDataProvider();
 
         setupRecyclerView(mDataProvider, savedInstanceState);
-
+        // make the first item expanded by default when activity is first opened
+        mRecyclerViewExpandableItemManager.expandGroup(0);
     }
 
     @Override
@@ -137,6 +138,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Need to disable them when using animation indicator.
         animator.setSupportsChangeAnimations(false);
 
+        assert mRecyclerView != null;
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mWrappedAdapter);  // requires *wrapped* adapter
         mRecyclerView.setItemAnimator(animator);
@@ -159,16 +161,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private AbstractExpandableDataProvider getDataProvider() {
-        ExampleExpandableDataProvider dataProvider = new ExampleExpandableDataProvider();
-        return dataProvider;
+        return new ExampleExpandableDataProvider();
     }
 
     private void adjustScrollPositionOnGroupExpanded(int groupPosition) {
         int childItemHeight = this.getResources().getDimensionPixelSize(R.dimen.list_grid_item_height);
         int topMargin = (int) (this.getResources().getDisplayMetrics().density * 8); // top-spacing: 8dp
-        int bottomMargin = topMargin; // bottom-spacing: 8dp
 
-        mRecyclerViewExpandableItemManager.scrollToGroup(groupPosition, childItemHeight, topMargin, bottomMargin);
+        mRecyclerViewExpandableItemManager.scrollToGroup(groupPosition, childItemHeight, topMargin, topMargin);
     }
 
 
